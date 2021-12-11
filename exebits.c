@@ -11,7 +11,7 @@
 
 void show_version(void)
 {
-    puts("exebits version 0.1");
+    puts("exebits version 0.2");
 }
 
 void show_help(void)
@@ -22,6 +22,8 @@ void show_help(void)
          "Options:\n"
          "    --verbose       Make the operation more talkative.\n"
          "    --bits XXX      Examinate the exe bits (XXX is 16, 32, or 64).\n"
+         "    --help          Show this message.\n"
+         "    --version       Show version info.\n"
          "\n"
          "If no options, it checks whether the file is an executable.");
 }
